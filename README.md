@@ -1,21 +1,22 @@
 # Water Quality Analysis Repository
 
 ## Repository Description
+
 This repository contains Python scripts and analytical tools designed for comprehensive assessment and statistical analysis of water quality, specifically focusing on heavy metal contamination and general pollution indicators. It includes robust methodologies such as correlation analysis, cluster analysis (K-means clustering), the Elbow method, silhouette score analysis, Water Quality Index (WQI), and Water Pollution Index (WPI) calculations, making it ideal for researchers and environmental scientists working on water quality monitoring projects.
 
 ---
 
 ## 📁 Files and Scripts Description
 
-| File Name                             | Description                                                        |
-|---------------------------------------|--------------------------------------------------------------------|
-| **correlation.py**                    | Computes Pearson correlation coefficients among heavy metal parameters, generating correlation matrices.|
-| **cluster-analysis.py**               | Implements K-means clustering to classify water samples based on heavy metal concentrations.|
-| **elbow-method-number-of-clusters.py**| Uses the Elbow method to determine the optimal number of clusters by plotting Within-Cluster Sum of Squares (WCSS).|
-| **silhouette-score-confirmation.py**  | Validates the optimal number of clusters found via the Elbow method by calculating silhouette scores.|
-| **WQI.py**                            | Calculates the Water Quality Index (WQI) using weighted arithmetic mean, assessing suitability of water samples for drinking based on standard guidelines.|
-| **WPI.py**                            | Computes the Water Pollution Index (WPI) for generalized pollution assessment, providing insights into broader chemical pollution.|
-| **columns-to-row.py**                 | Utility script for reshaping data from columns into rows (useful for data cleaning and preprocessing).|
+| File Name                              | Description                                                                                                                                                |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **correlation.py**                     | Computes Pearson correlation coefficients among heavy metal parameters, generating correlation matrices.                                                   |
+| **cluster-analysis.py**                | Implements K-means clustering to classify water samples based on heavy metal concentrations.                                                               |
+| **elbow-method-number-of-clusters.py** | Uses the Elbow method to determine the optimal number of clusters by plotting Within-Cluster Sum of Squares (WCSS).                                        |
+| **silhouette-score-confirmation.py**   | Validates the optimal number of clusters found via the Elbow method by calculating silhouette scores.                                                      |
+| **WQI.py**                             | Calculates the Water Quality Index (WQI) using weighted arithmetic mean, assessing suitability of water samples for drinking based on standard guidelines. |
+| **WPI.py**                             | Computes the Water Pollution Index (WPI) for generalized pollution assessment, providing insights into broader chemical pollution.                         |
+| **columns-to-row.py**                  | Utility script for reshaping data from columns into rows (useful for data cleaning and preprocessing).                                                     |
 
 ---
 
@@ -76,13 +77,13 @@ Your input Excel file (`water_quality_data.xlsx`) must contain the following she
 ### Example (`Data` sheet):
 
 | Sample ID | Fe  | Zn  | Cu  | Mn  | Ni   | Cr   | Co  | pH  | EC  | TDS |
-|-----------|-----|-----|-----|-----|------|------|-----|-----|-----|-----|
+| --------- | --- | --- | --- | --- | ---- | ---- | --- | --- | --- | --- |
 | GW1       | 0.3 | 1.2 | 0.2 | 0.1 | 0.05 | 0.02 | 0.1 | 6.8 | 250 | 450 |
 
 ### Example (`Standards` sheet):
 
 | Parameter | Permissible Limit (Si) |
-|-----------|------------------------|
+| --------- | ---------------------- |
 | Fe        | 0.3                    |
 | Zn        | 3                      |
 | pH_low    | 6.5                    |
@@ -117,8 +118,9 @@ Contributions and improvements are welcome! Please open an issue or submit a pul
 
 For questions, collaboration, or feedback, please reach out via:
 
-- **Email:** `[your email address]`
-- **GitHub:** `[your GitHub profile link]`
+- **Email:** `jubemi.pajiah@uniben.eng.edu || jubemipajiah@gmail.com`
+- **GitHub:** `https://github.com/Jubemi-Pajiah || https://github.com/Jubemi-Anthony`
+- **LinkedIn:** `https://www.linkedin.com/in/jubemi-pajiah-626b7323b/`
 
 ---
 
