@@ -1,0 +1,11 @@
+statistic,value
+KMO overall,0.763374
+Bartlett chi-square,111.052
+Bartlett p-value,3.04304e-14
+KMO Fe,0.807487
+KMO Zn,0.784382
+KMO Cu,0.799336
+KMO Mn,0.773048
+KMO Ni,0.360794
+KMO Cr,0.831647
+KMO Co,0.31296
